@@ -1096,8 +1096,8 @@ document.addEventListener('DOMContentLoaded', function () {
             return 'State Licensure: Speech-Language Pathologist \n Educator Credential: Standard Speech-Language Pathologist (K-12) Certificate';
         case 'arkansasslp':
             return 'State Licensure: Speech Language Pathologist\n' +' Educator Credential: Ancillary License - Speech Language Pathology (K-12)';
-                case 'californiaslp':
-            return 'State Licensure: Speech Language Pathologist (from DCA) \n' +'Educator Credential: Clear/Professional Speech Services Credential from CTC\n'+'Note: Services MAY be provided by SLP license holder or CTC Certified SLP (5 CCR §3051.1)';
+        case 'californiaslp':
+            return 'State Licensure: Speech Language Pathologist (from DCA) \n' +'Educator Credential: Clear/Professional Speech Services Credential from CTC\n'+'\nNote: Services MAY be provided by SLP license holder or CTC Certified SLP (5 CCR §3051.1)';
         case 'coloradoslp':
             return 'State Licensure: Speech Language Pathologist (from DORA)\n'+ 'Educator Credential: Special Services Provider with Speech-Language Pathologist Endorsement\n' + 'Note: Can work if they only have CDE credential and not DORA';
         case 'connecticutslp':
