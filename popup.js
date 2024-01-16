@@ -1096,8 +1096,8 @@ document.addEventListener('DOMContentLoaded', function () {
             return 'State Licensure: Speech-Language Pathologist \n Educator Credential: Standard Speech-Language Pathologist (K-12) Certificate';
         case 'arkansasslp':
             return 'State Licensure: Speech Language Pathologist\n' +' Educator Credential: Ancillary License - Speech Language Pathology (K-12)';
-        case 'californiaslp':
-            return 'State Licensure: Speech Language Pathologist (from DCA) \n' +'Educator Credential: Clear/Professional Speech Services Credential from CTC\n'+'\nNote: Services MAY be provided by SLP license holder or CTC Certified SLP (5 CCR §3051.1)';
+                case 'californiaslp':
+            return 'State Licensure: Speech Language Pathologist (from DCA) \n' +'Educator Credential: Clear/Professional Speech Services Credential from CTC\n'+'Note: Services MAY be provided by SLP license holder or CTC Certified SLP (5 CCR §3051.1)';
         case 'coloradoslp':
             return 'State Licensure: Speech Language Pathologist (from DORA)\n'+ 'Educator Credential: Special Services Provider with Speech-Language Pathologist Endorsement\n' + 'Note: Can work if they only have CDE credential and not DORA';
         case 'connecticutslp':
@@ -1912,6 +1912,110 @@ document.addEventListener('DOMContentLoaded', function () {
 
             
     //sli - Sign Language Interpreter 
+	case 'alabamasli':
+		return qual + 'Sign Language Interpreter Permit' + '\nEIPA Score: 4.0 (Preferred)\n 3.0-3.9 with RID Ethics/written exam can apply for renewable permit'+'/nNote: Permit requires RID membership';
+	case 'alaskasli':
+		return  'EIPA Score: 4.0 or higher' + '\nIf 3.8+ must have a mentoring plan in place. If no EIPA rating, can work on a temporary basis for 2 years.';
+	case 'arizonasli':
+		return qual + 'EIPA Score:3.5+';
+	case 'arkansassli':
+		return qual + '\nEIPA Score: 3.0' + '\nAccepts RID membership, BEI or other state test' + '\nState Licensure: Interpreter License';
+	case 'californiasli':
+		return 'Note: No license, but must meet following requirements:' + '\nEIPA Score: 4.0+ or RID Membership or \nEducational Sign Skills-Evaluation Interpreter & Receptive (ESSE-I/R) or\nNAD/American Consotrium of Certified Interperters (NAD/ACCI) assssment.\nIf providing cued transliteration, transliterator shall possess Testing/Evaluation & Certification Unit (TECUnit) certification, or achieve 4.0+ on EIPA Cued Speech';
+	case 'coloradosli':
+		return 'EIPA Score: 3.5+' + '\nState Licensure: Must register with Department of Rehabilitation Services (DOR)';
+	case 'delawaresli':
+		return 'EIPA Score: 4.0+ or RID Generalist Credential' + '\nEducator Credential: Permit as Interpreter/Tutor for the Deaf/Hard of Hearing';
+	case 'dcsli':
+		return 'No requirements found. Verify requirements with Client';
+	case 'floridasli':
+		return 'No requirements found. Verify requirements with Client';
+	case 'georgiasli':
+		return 'EIPA Score: 3.5+ or RID Credential' + '\nEducator Credential: Educational Interpreter (issued by GaPSC)';
+	case 'hawaiisli':
+		return 'EIPA Score: 3.5+ or Hawaii Quality Assurance System (HQAS) Interpreter Classification III OR RID Certification';
+	case 'idahosli':
+		return 'EIPA Score: 3.5+ or RID Certification or NAD Level III (or higher).' + '\nEmergency Cert available';
+	case 'illinoissli':
+		return 'EIPA Score: 3.5+' + '\nEducator Credential: Professional Educator License with Interprter Approval';
+	case 'indianasli':
+		return 'EIPA Score: 3.5+ or RID Certfication' + '\nEducator Credential: Educational Interpreter Permit';
+	case 'iowasli':
+		return 'State Licensure: Sign Language Interpreter & Transliterators License';
+	case 'kansassli':
+		return 'EIPA Score: 3.5+ & 4.0 on ESSE or KQAS Assessments or RID Membership with NIC or ED:K-12 Credential';
+	case 'kentuckysli':
+		return 'State Licensure: Interpreting License (Granted by Board of Interpreters for Deaf/Hard of Hearing)' + '\nNote: To get a license, requires: \n(i)graduated from interpreter training program or \n(ii)SLPI/SCPI Score of Intermediate Plus or \n(iii)NAD III Credential';
+	case 'louisianasli':
+		return 'Educator Credential: Educational Interpreter Certificate' + '\nNote: Provisional Cert available if candidate has completed an interpreting program & has either a degree or certificate - See LA Bulletin 746';
+	case 'mainesli':
+		return 'State Licensure: Certified Interpreter or Certified Deaf Interpreter' + '\nNote:Certified Deaf Interpreter means a person licensed by the Dept of Professional & Financial Regulation whose sense of hearing is nonfunctional for the purpose of communication';
+	case 'marylandsli':
+		return 'No requirements found. Verify requirements with client';
+	case 'massachusettssli':
+		return 'State Licensure: Must be registered on Educational Interpreter Registery.'  + '\nVerify Name here:https://www.mass.gov/doc/database-of-educational-interpreters/download';
+	case 'michigansli':
+		return 'EIPA Score: 4.0+' + '\nState Licensure: Certified Interpreter' + '\nNote:School Districts can apply for a waiver from this requirement which is valid only for the school year the candidate would work. Credential issued by Bureau of Community and Health Systems NOT LARA. Credentials required to obtain certification include: BEI, RID, EIPA Score of 4.0+';
+	case 'minnesotasli':
+		return 'EIPA Score: 4.0+' + '\nState Licensure: None - but must meet qualifications' + '\nQUALIFICATIONS: \n(i)Completed Approved Interpreter Program & (ii)hold RID/NAD Certification, or EIPA Score of 4.0 or higher' + '\nEducator Credential: Interpreter Certification';
+
+	case 'mississippisli':
+		return 'EIPA Score: 3.0+' + '\nState Licensure: Must be registerd with Office of Deaf & Hard of Hearing' + '\nNote: Accepts EIPA, MSQA Card State Screening Level I or II';
+	case 'missourisli':
+		return 'EIPA Score: 4.0+' + '\nState Licensure: BEI/RCED Certification with appropriate levels' + '\nPRE-K: BEI Basic/Adv/Master; RCED' + '\nK-6: RCED (General) or CDI/PCED' + '\n7-12: BEI Basic/Adv/Master; RCED (7-12); RCED (general) or CDI/PCED';
+	case 'montanasli':
+		return 'EIPA Score: 3.5+' + '\nNote: Can work with EIPA Score 2.5+ but will have 3 years to improve score';
+	case 'nebraskasli':
+		return 'EIPA Score: 4.0+' + 'State Licensure: Certified Interperter' + '\nNote:Must have EIPA Score or either RID/NAD/NIC/QUAST 4.0';
+	case 'nevadasli':
+		return 'No requirements found. Verify with client';
+	case 'new hampshiresli':
+		return 'EIPA Score: 3.5+' + '\nEducator Credential: Educational Interpreter or Transliterator for Children Youth Ages 3-21';
+	case 'new jerseysli':
+		return 'EIPA Score: 3.0+' + '\nEducator Credential: Standard Educational Services Certificate with Educational Interpreter Endorsement, or Cued Speech Transliteration Endorsement';
+	case 'new mexicosli':
+		return 'Educator Credential: Interperter for the Deaf License';
+	case 'new yorksli':
+		return 'EIPA Score: 3.5+';
+	case 'north carolinasli':
+		return 'Interpreter/Transliterator must complete 15 hours of job related training see source. NC does license sign language interpreters / Cued Speech Interpreters but license requirement does not apply to those working in education (see §90D).' + '\nSource: N.C.G.S. 115C-110.2; N.C.G.S § 90D-4';
+	
+	case 'north dakotasli':
+		return 'Must hold RID or NAD Certification';
+	case 'ohiosli':
+		return 'Educator Licensure: Associate License-Interpreter for the Hearing Impaired';
+	case 'oklahomasli':
+		return 'EIPA Score: 3.5+' + '\nQualification: EIPA Score (above) or National Council of Interpreters (NCI) Certificate or 3 years of experience'; 
+	case 'oregonsli':
+		return 'EIPA Score: 3.5+' + 'State Licensure: Educational Sign Language Interpreter License';
+	case 'pennslyvanaisli':
+		return 'EIPA Score: 3.5+' + '\nQualifications: EIPA Score (above) or Be a qualified sign language interpreter or qualified transliterator under the Sign Language Interpreter and Transliterator Registration Act and its implementing regulations.Educational interpreters must also provide evidence of a minimum of 20 hours of staff development activities relating to interpreting or transliterating services annually.';
+	case 'rhode islandsli':
+		return 'EIPA Score: 4.0+' + '\nState Licensure: Certified Interpreter or Certified Deaf Interpreter';
+	case 'south carolinasli':
+		return 'No requirements found. Verify with client';
+	case 'south dakotasli':
+		return 'No requirements found. Verify with client';
+	case 'tennesseesli':
+		return 'EIPA Score: 3.5+' + '\nEducator Credential: School Services Personnel License with Educational Interpreter Endorsement';
+	case 'texassli':
+		return 'Qualifications: \nRID Certification \nBEI \nDARS \nOffice for Deaf/Hard of Hearing Services';
+	case 'utahsli':
+		return 'No requirements found. Verify with client';
+	case 'vermontsli':
+		return 'No requirements found. Verify with client';
+	case 'virginiasli':
+		return 'EIPA Score: 3.5+ \nQualifications: \nVQAS Level III or \nEIPA Score of 3.5 or higher';
+	case 'washingtonsli':
+		return 'EIPA Score: 4.0+' + '\nQualifications: \n(i)EIPA Score of 4.0 or higher.\n(ii)RID Certification with passing EIPA Score';
+	case 'west virginiasli':
+		return 'EIPA Score: 3.0+' + 'Educator Credential: Paraprofesional Certificate - Educational Sign Interperter I or II' + '\nNote:WV recognizes educational sign language interpreters AND sign support specialists. Sign support specialists supplement communication for students who can hear, whereas, educational sign language interpreters provide access to the auditory environment through sign language for students who are deaf or hard of hearing. Can be used under certain conditions if Educational Interpreter is unavailable';
+	
+	case 'wisconsinsli':
+		return 'Educational Interpreter License';
+	case 'wyomingsli':
+		return 'EIPA Score: 3.5+' + '\nEducator Credential: Educational Sign Language Interpreter Permit';
+
 
     //teacher - sped
         case 'alabamateacher - sped':
