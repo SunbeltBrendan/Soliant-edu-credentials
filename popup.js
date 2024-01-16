@@ -2231,7 +2231,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             
     //ed diag only in LA, TX, NM, WY
-        case 'lousianaed diag':
+        case 'louisianaed diag':
             return'Educator Credential: Ancillary Educational Diagnostican Certificate';
         case 'texased diag':
             return 'Educator Credential: Educational Diagnostician (K-12)';
