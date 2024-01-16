@@ -7,11 +7,11 @@
     "16": "images/icon16.png",
     "48": "images/icon48.png",
     "128": "images/icon128.png"
-  }, // Add a comma here
+  }, 
 
   "action": {
     "default_popup": "popup.html"
-  }, // Add a comma here
+  }, 
 
   "permissions": [
     "activeTab"
